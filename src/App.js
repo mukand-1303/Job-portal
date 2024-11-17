@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PostJob from './components/PostJob';
 import SaveJobs from './components/SaveJobs';
 import Discussion from './components/Discussion';
-import ErrorPage from './components/ErrorPage';
+// import ErrorPage from './components/ErrorPage';
 import ApplyJobs from './components/ApplyJobs';
 
 function App() {
@@ -21,7 +21,6 @@ function App() {
             <Route path="/apply-jobs" element={<ApplyJobs />} />
             <Route path="/saved-job" element={<SaveJobs />} />
             <Route path="/discussion" element={<Discussion />} />
-            <Route path="*" element={<ErrorPage />} />
           </Route>
         </Routes>
       </BrowserRouter>
